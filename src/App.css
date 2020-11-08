@@ -1,0 +1,12 @@
+.bg-spinner {
+  width: 10rem;
+  height:10rem;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.search-box {
+  padding: 40px 0;
+}

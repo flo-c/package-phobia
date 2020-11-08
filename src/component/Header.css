@@ -1,0 +1,31 @@
+.app-header {
+  background-color: #003D7F;
+  text-align: center;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.logo__skeleton {
+  animation: move 2s alternate infinite;
+}
+.logo-graphic:hover .logo__skeleton {
+  stroke: #7FBDFF;
+}
+
+.logo-graphic {
+  width: 123.3px;
+  height: 141.3px;
+}
+@media screen and (max-width: 40em) {
+  .logo-graphic {
+    width: 109.6px;
+    height: 125.6px;
+  }
+}
+.logo-graphic:hover .logo__skeleton-group {
+  opacity: 0.4;
+}
